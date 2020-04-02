@@ -1,4 +1,4 @@
-#!/usr/bin/env sbcl-srfi-22
+#!/usr/bin/env lw-srfi-22
 
 (defun display-file (filename)
   (with-open-file (in filename)
